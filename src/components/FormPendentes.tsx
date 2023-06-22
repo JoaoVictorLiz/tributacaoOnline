@@ -10,7 +10,7 @@ type Props = {
 }
 
 
-const Form = ({produto, lote,closeModal}: Props) => {
+const Form = ({produto, lote}: Props) => {
     
 
     const [id, setID] = useState<number>(0)
